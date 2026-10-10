@@ -6,7 +6,7 @@ const origin = process.env.NEXT_PUBLIC_SITE_URL;
 export const metadata: Metadata = {
   metadataBase: new URL(origin || "http://localhost:3000"),
   title: {
-    default: "Shicheng Hu — AI & Multi-Agent Systems",
+    default: "Shicheng Hu",
     template: "%s | Shicheng Hu",
   },
   description: site.description,
