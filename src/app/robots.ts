@@ -1,8 +1,19 @@
+
 import type { MetadataRoute } from "next";
+
+export const dynamic = "force-static";
+
 export default function robots(): MetadataRoute.Robots {
-  const origin = process.env.NEXT_PUBLIC_SITE_URL;
+  const origin = (
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    "https://brunstud.github.io"
+  ).replace(/\/$/, "");
+
   return {
-    rules: { userAgent: "*", allow: "/" },
-    ...(origin ? { sitemap: `${origin.replace(/\/$/, "")}/sitemap.xml` } : {}),
+    rules: {
+      userAgent: "*",
+      allow: "/",
+    },
+    sitemap: `${origin}/sitemap.xml`,
   };
 }
