@@ -1,0 +1,364 @@
+# Build My Personal Academic Website
+
+You are a senior frontend engineer and web designer specializing in minimalist academic websites and professional portfolios for computer science researchers.
+
+Build a complete, production-ready personal website for **Shicheng Hu**, a Master of Computer Science student at the University of Illinois Urbana-Champaign.
+
+The site will be used primarily for **AI Engineer, Research Engineer, Agent Engineer, and Software Engineer job applications in the United States**, while also supporting academic networking and research collaboration.
+
+## 1. Core Design Philosophy
+
+The website should look and feel like the personal homepage of a researcher at a leading AI lab.
+
+Use the following websites as conceptual references:
+
+- https://joonspk-research.github.io/
+- https://cs.stanford.edu/~pliang/
+- https://huyenchip.com/
+
+Study their information architecture, typography, content density, and academic credibility.
+
+Do not copy their code, branding, or exact layouts.
+
+The desired aesthetic is:
+
+- Minimalist
+- Academic
+- Elegant
+- Professional
+- Credible
+- Calm and understated
+- Slightly distinctive and personal
+
+**Avoid the typical AI-generated portfolio appearance.**
+
+Specifically, avoid:
+- Large colorful cards or dashboard layouts
+- Excessive illustrations and decorative icons
+- Generic AI-generated artwork
+- Hero sections filled with particle networks
+- Animated backgrounds and excessive gradients
+- Glassmorphism or excessive shadows
+- Unnecessary 3D effects
+- Giant empty sections
+- Marketing-style landing page copy
+- Unnecessary animations and visual complexity
+
+The website should communicate credibility through thoughtful typography, spacing, layout, and substantive content.
+
+Use a predominantly white or warm-white background, dark charcoal text, subtle gray dividers, and a restrained dark green accent.
+
+Prefer an editorial-style content layout over an application dashboard.
+
+## 2. Personal Information
+
+Name: Shicheng Hu
+
+Education:
+- Master of Computer Science, University of Illinois Urbana-Champaign, expected May 2028
+- Bachelor of Engineering in Computer Science and Technology, Tongji University, July 2026
+
+Current research interests:
+- Agentic AI
+- Human Behavior Simulation
+- Multi-Agent Systems
+- Trustworthy and Controllable Large Language Models
+- Complex Systems and Computational Simulation
+
+Professional background:
+- Previously a System AI Engineer Intern at NIO, working on autonomous-driving AI systems, path planning, and automated model testing.
+
+Use my provided resumes as the authoritative source for all factual content when available.
+
+Do not fabricate achievements, research results, publications, demos, employment dates, or external links.
+
+## 3. Homepage Structure
+
+Keep the homepage relatively compact and content-dense.
+
+The primary sections should be:
+
+1. Introduction / Biography
+2. Research
+3. Projects
+4. A Little More About Me
+5. Footer
+
+**Do not create a separate Experience or Internship section.**
+
+Mention my NIO internship briefly in the biography. Detailed employment experience belongs in my downloadable resume/CV.
+
+Do not create redundant Skills, Research Interests, Certifications, or Awards sections merely to fill space.
+
+Do not feature the 81-Instruction Pipelined CPU & RTOS project anywhere.
+
+### Introduction
+
+Place my name prominently near the top.
+
+Suggested research-oriented tagline:
+
+"Exploring intelligent agents, human behavior, and complex systems."
+
+Write a concise first-person biography, approximately 100–140 words, based on my actual background.
+
+It should mention:
+- Current MCS studies at UIUC
+- Previous education at Tongji University
+- Research interests in agentic AI and human simulation
+- Interest in building interactive intelligent systems
+- Previous AI engineering experience at NIO
+
+Include direct links to:
+- Email
+- GitHub
+- LinkedIn
+- CV / Resume
+
+Use clearly identified placeholders for unknown links.
+
+Do not publish my phone number or other unnecessary personal information.
+
+A small personal portrait may be included only when a real photograph is provided. Do not fabricate one.
+
+### Research
+
+Display research contributions as a traditional academic publication list, not as large cards.
+
+Each entry should support:
+- Project or publication title
+- Authors and affiliations, when verified
+- Publication venue and status, when verified
+- One- or two-sentence summary
+- Relevant links such as Paper, arXiv, Code, or Project
+
+Research entries:
+
+**On the Recoverability of Private Information Unlearning in Large Language Models**
+
+Research involving white-box LLM unlearning audits, a synthetic private-information dataset, RIG decoding, and recoverability evaluation.
+
+**Computational Properties of Organized Complexity Simulation**
+
+Research exploring the computational foundations of organized complexity and behavioral simulation, including LLM-based multi-agent modeling.
+
+**Future Scientific Paradigms in Aerospace Systems**
+
+A published interdisciplinary research perspective involving scientific paradigms, data-driven aerospace systems, and future aerospace technologies.
+
+Use accurate titles, publication status, and available metadata from my materials.
+
+Do not invent missing journal details or URLs.
+
+Use compact text rows with subtle separators. Small genuine figures from the research may be added later, but the layout must look polished without images.
+
+### Projects
+
+Include only the following two selected projects:
+
+**InnBook — LLM-Powered Multi-Agent Creative Interaction Platform**
+
+An AI-agent-based creative interaction system involving multi-agent orchestration, interactive storytelling, character behavior, and simulated narratives.
+
+Emphasize:
+- LLM-powered agent architecture
+- Multi-agent coordination
+- Agent-specific behavior and scheduling
+- Interactive narrative systems
+
+**Offline Ray-Traced Fluid Simulation**
+
+A C++ / OpenGL project involving APIC fluid simulation, rigid-body interaction, ray tracing, multithreading, and BVH acceleration.
+
+Use concise technical descriptions and optional links to detailed project pages.
+
+Do not invent repository URLs, screenshots, benchmarks, or playable demonstrations.
+
+Keep the project section visually consistent with the Research section, but allow slightly more detail about implementation.
+
+### A Little More About Me
+
+This should be a short, understated section near the bottom of the homepage.
+
+Mention that outside research and coding, I enjoy:
+
+- Rowing with Illini Rowing at UIUC
+- Dragon boat racing, having previously served as a team leader at Tongji University
+- Game development and interactive storytelling
+- Writing classical Chinese poetry
+
+These interests are important to my identity, but should not compete visually with my research and engineering work.
+
+Use one short paragraph and two subtle text links:
+
+- "Life Beyond Research"
+- "Poetry / 诗稿"
+
+No large interest cards, decorative illustrations, or elaborate hobby sections on the homepage.
+
+## 4. Secondary Pages
+
+Create a small number of useful secondary pages.
+
+### Research and Project Details
+
+Support individual detail pages for selected research and technical projects.
+
+These pages should allow future additions such as diagrams, implementation notes, experimental results, and project screenshots.
+
+Do not manufacture missing details.
+
+### About
+
+Create an About page where I can share more personal information.
+
+Include a modest section about rowing and dragon boat racing.
+
+Provide an elegant gallery layout for future real photographs, but do not use fake personal images or AI-generated sports photographs.
+
+The About page may mention game development, creative writing, and my general interests.
+
+Keep it personal but professional.
+
+### Poetry / 诗稿
+
+Create a minimalist poetry section at `/poetry`.
+
+This should be a quiet literary corner of the website, not a major feature of the homepage.
+
+Requirements:
+- Support Chinese classical poetry
+- Display poem titles and optional dates
+- Allow individual poems to have their own URLs
+- Support original Chinese text and optional English notes
+- Use elegant Chinese typography and generous whitespace
+- Keep the design consistent with the rest of the website
+
+Implement a simple content structure so I can add poems without editing page components.
+
+Do not invent poems attributed to me. If no actual poems are supplied, show an appropriate empty state or clearly marked content placeholders.
+
+## 5. Navigation
+
+Keep the navigation concise.
+
+Suggested top navigation:
+
+Research | Projects | About | CV
+
+Writing or Poetry may be accessible through About rather than occupying a major navigation position.
+
+The website should prioritize information discovery for recruiters.
+
+Research, projects, contact information, and CV should be easy to locate.
+
+## 6. Typography and Visual Identity
+
+Build a restrained, carefully balanced typographic system.
+
+Recommended characteristics:
+
+- Maximum main content width approximately 850–950px
+- Comfortable paragraph width
+- Generous but not excessive whitespace
+- Elegant headings
+- Readable body typography
+- Small muted metadata and dates
+- Subtle horizontal dividers
+- Consistent link styling
+- Very limited use of accent colors
+
+Use a suitable serif font for major headings and a clean sans-serif font for body text, or another equally sophisticated typographic pairing.
+
+Support Chinese characters elegantly in the Poetry section.
+
+No unnecessary visual effects.
+
+The website should resemble an authentic academic homepage created by a thoughtful researcher, rather than a commercial portfolio template.
+
+## 7. Subtle Personal Distinction
+
+Although minimalist, the website should not feel generic.
+
+Introduce one subtle and distinctive personal design detail.
+
+It may draw inspiration from:
+- The rhythm of rowing
+- Water and movement
+- Intelligent systems and their interactions
+- The rhythm of classical poetry
+
+This should be expressed through typography, alignment, a minimal graphical motif, or a small interaction.
+
+Keep it understated and meaningful.
+
+Do not build a large animated illustration or background simulation.
+
+## 8. Technical Requirements
+
+Use:
+- Next.js with App Router
+- TypeScript
+- Tailwind CSS
+- Content stored separately from UI components
+- Markdown or MDX for long-form research notes and poetry, if appropriate
+
+Prioritize:
+- Static generation where possible
+- Accessibility and semantic HTML
+- Responsive layouts
+- Fast loading
+- Clean component architecture
+- SEO metadata and Open Graph support
+- Maintainable code
+- Easy content updates
+
+No backend, database, authentication system, or paid external API is needed.
+
+Use minimal dependencies.
+
+The website should be deployable to Vercel.
+
+## 9. Implementation Process
+
+First inspect the current repository.
+
+If it is empty, initialize the project with the appropriate framework.
+
+If a website already exists, inspect its architecture before making changes.
+
+Then:
+
+1. Establish the design system and typography.
+2. Implement the homepage.
+3. Implement research and project detail page templates.
+4. Implement the About page.
+5. Implement the Poetry index and individual poem pages.
+6. Ensure responsive desktop and mobile layouts.
+7. Run linting, type checking, and production build.
+8. Fix errors and check for broken links.
+9. If browser or screenshot tools are available, inspect the rendered desktop and mobile pages and refine the layout.
+
+Do not stop after generating a wireframe. Deliver working code.
+
+Prioritize correctness, design quality, and coherence over feature quantity.
+
+## 10. Final Acceptance Criteria
+
+The finished website should meet these conditions:
+
+- It looks like a professional AI researcher's personal homepage.
+- Research and engineering work are immediately visible.
+- The homepage does not look empty despite having a relatively small number of projects.
+- It does not look like a corporate SaaS landing page.
+- There is no separate Internship / Experience section.
+- The CPU & RTOS project is excluded.
+- Rowing, dragon boat racing, game development, and poetry appear as secondary personal interests.
+- Every visible link is functional or clearly identified as a placeholder.
+- No research claims, project screenshots, personal images, or publications have been fabricated.
+- The interface is elegant, fast, responsive, and accessible.
+- The code is easy to maintain and extend.
+
+At the end, summarize what was implemented, which checks passed, how to run the website locally, and which content or assets I still need to provide.
+
+**Most important: Make it feel like an authentic, carefully crafted academic homepage — simple, intelligent, polished, and personal.**

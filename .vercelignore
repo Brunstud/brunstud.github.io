@@ -1,0 +1,9 @@
+.tools/
+.npm-cache/
+qa/
+test-results/
+playwright-report/
+/cv/
+src/content/projects/*.pdf
+src/app/poetry/*.docx
+.prompt
