@@ -18,4 +18,4 @@ Water-material parameters and initial reflection/refraction effects were also pa
 
 The report records practical limitations: fluid–rigid coupling is approximate, parameter choices can destabilize floating objects, and the simulation cannot fully restore its physical state after an interrupted offline render. These constraints made explicit synchronization and small test scenes particularly important during development.
 
-The APIC work drew on the libfluid reference implementation, as acknowledged in the team report. The source repository is linked above. Selected team images follow.
+The APIC work drew on the libfluid reference implementation, as acknowledged in the team report. The source repository is linked above.

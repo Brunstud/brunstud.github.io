@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import media from "@/content/media.json";
 import { notFound } from "next/navigation";
 import { poems } from "@/lib/content";
 export const dynamicParams = false;
@@ -29,6 +31,9 @@ export default async function Poem({
       <Link className="back-link" href="/poetry">
         ← Poetry / 诗稿
       </Link>
+      <div className={slug === "tong-zhou-xing" ? "poem-title-with-print" : undefined}>
+      {slug === "tong-zhou-xing" && <figure className="poem-print"><a href={media["poetry-print"].full}><Image src={media["poetry-print"].src} width={media["poetry-print"].width} height={media["poetry-print"].height} alt={media["poetry-print"].alt} sizes="(max-width: 600px) 105px, 200px" /></a><figcaption>{media["poetry-print"].caption}</figcaption></figure>}
+      <div>
       <h1 className="poetry-chinese" lang="zh-Hans">
         {poem.title}
       </h1>
@@ -48,6 +53,9 @@ export default async function Poem({
           {poem.date}
         </time>
       )}
+      </div>
+      </div>
+
       <div className="poem-body bilingual-poem">
         {poem.lines.map((line, index) => (
           <div

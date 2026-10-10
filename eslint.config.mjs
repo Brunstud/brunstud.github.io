@@ -10,6 +10,8 @@ export default defineConfig([
     ".tools/**",
     ".npm-cache/**",
     "qa/**",
+    "test-results/**",
+    "playwright-report/**",
     "next-env.d.ts",
   ]),
 ]);

@@ -17,7 +17,8 @@ export default function Image() {
         color: "#292d29",
       }}
     >
-      <div style={{ fontSize: 20, color: "#285946", letterSpacing: 3 }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 24, fontSize: 20, color: "#285946", letterSpacing: 3 }}>
+        <svg width="48" height="48" viewBox="0 0 32 32" fill="none"><path d="M14 7C4 3 2 15 10 16C19 17 16 29 5 25M21 6V26M28 6V26M18 16H28" stroke="#285946" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
         COMPUTER SCIENCE · UIUC
       </div>
       <div style={{ fontFamily: "serif", fontSize: 88, marginTop: 58 }}>

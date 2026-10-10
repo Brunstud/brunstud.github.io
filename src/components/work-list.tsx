@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Work } from "@/content/site";
 export function WorkList({
   items,
@@ -11,7 +12,9 @@ export function WorkList({
     <ol className="work-list">
       {items.map((item) => (
         <li key={item.slug} className="work-row">
-          <span className="work-year">{item.period}</span>
+          <div className="work-aside"><span className="work-year">{item.period}</span>
+            {item.thumbnail && <Image className="work-thumbnail" src={item.thumbnail.src} alt={item.thumbnail.alt} width={item.thumbnail.width} height={item.thumbnail.height} sizes="140px" />}
+          </div>
           <article>
             <h3>
               {item.externalUrl ? (

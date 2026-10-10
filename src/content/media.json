@@ -1,0 +1,286 @@
+{
+  "dragon-1": {
+    "src": "/media/dragon-1.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Dragon boat team outdoors with university flag",
+    "caption": "Dragon boat · 1 / 9",
+    "full": "/images/dargon boat/1.jpg"
+  },
+  "dragon-2": {
+    "src": "/media/dragon-2.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Indoor dragon boat team group photograph",
+    "caption": "Dragon boat · 2 / 9",
+    "full": "/images/dargon boat/2.jpg"
+  },
+  "dragon-3": {
+    "src": "/media/dragon-3.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Dragon boat crew racing on a city waterway",
+    "caption": "Dragon boat · 3 / 9",
+    "full": "/images/dargon boat/3.jpg"
+  },
+  "dragon-4": {
+    "src": "/media/dragon-4.webp",
+    "width": 1200,
+    "height": 754,
+    "alt": "Dragon boat team in front of an event backdrop",
+    "caption": "Dragon boat · 4 / 9",
+    "full": "/images/dargon boat/4.jpg"
+  },
+  "dragon-5": {
+    "src": "/media/dragon-5.webp",
+    "width": 675,
+    "height": 1200,
+    "alt": "Vertical photograph of crew boarding beside the dock",
+    "caption": "Dragon boat · 5 / 9",
+    "full": "/images/dargon boat/5.jpg"
+  },
+  "dragon-6": {
+    "src": "/media/dragon-6.webp",
+    "width": 644,
+    "height": 858,
+    "alt": "Dragon boat crew lined up along the dock",
+    "caption": "Dragon boat · 6 / 9",
+    "full": "/images/dargon boat/6.jpg"
+  },
+  "dragon-7": {
+    "src": "/media/dragon-7.webp",
+    "width": 900,
+    "height": 1200,
+    "alt": "Front view along a dragon boat on open water",
+    "caption": "Dragon boat · 7 / 9",
+    "full": "/images/dargon boat/7.jpg"
+  },
+  "dragon-8": {
+    "src": "/media/dragon-8.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Team with university flag in front of an event backdrop",
+    "caption": "Dragon boat · 8 / 9",
+    "full": "/images/dargon boat/8.jpg"
+  },
+  "dragon-9": {
+    "src": "/media/dragon-9.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Team group indoors with university flag",
+    "caption": "Dragon boat · 9 / 9",
+    "full": "/images/dargon boat/9.jpg"
+  },
+  "portrait": {
+    "src": "/media/portrait.webp",
+    "width": 420,
+    "height": 420,
+    "alt": "Portrait of Shicheng Hu in a dark suit and glasses",
+    "caption": "",
+    "full": "/images/picture/IMG_9537.jpg"
+  },
+  "portrait-large": {
+    "src": "/media/portrait-large.webp",
+    "width": 720,
+    "height": 1080,
+    "alt": "Portrait of Shicheng Hu adjusting his tie",
+    "caption": "",
+    "full": "/images/picture/IMG_9577.jpg"
+  },
+  "poetry-print": {
+    "src": "/media/poetry-print.webp",
+    "width": 900,
+    "height": 1200,
+    "alt": "Printed hanging copy of the Chinese poem 同舟行",
+    "caption": "A printed copy of 同舟行.",
+    "full": "/images/poetry/同舟行诗挂.jpg"
+  },
+  "fluid-mesh": {
+    "src": "/media/fluid-mesh.webp",
+    "width": 374,
+    "height": 365,
+    "alt": "Fluid surface mesh with visible grid and particle structure",
+    "caption": "Fluid mesh visualization from the project materials.",
+    "full": "/images/project/fluid-54-2.png"
+  },
+  "fluid-light": {
+    "src": "/media/fluid-light.webp",
+    "width": 769,
+    "height": 553,
+    "alt": "Sailboats and a water lily lit against a dark background",
+    "caption": "Lighting study from the team project.",
+    "full": "/images/project/fluid-55-0.png"
+  },
+  "fluid-render": {
+    "src": "/media/fluid-render.webp",
+    "width": 517,
+    "height": 345,
+    "alt": "Noisy path-traced view below the pool water surface",
+    "caption": "Path-traced frame, preserving the sampling noise of the original.",
+    "full": "/images/project/fluid-render.webp"
+  },
+  "fluid-scene": {
+    "src": "/media/fluid-scene.webp",
+    "width": 1080,
+    "height": 720,
+    "alt": "Pool scene with sailboats, a water lily, and water reflections",
+    "caption": "Pool scene from the team project; scene assets and rendering were collaborative work.",
+    "full": "/images/project/fluid-scene.webp"
+  },
+  "fluid-scene-thumb": {
+    "src": "/media/fluid-scene-thumb.webp",
+    "width": 420,
+    "height": 280,
+    "alt": "Pool scene with sailboats, a water lily, and water reflections",
+    "caption": "Pool scene from the team project; scene assets and rendering were collaborative work.",
+    "full": "/images/project/fluid-scene.webp"
+  },
+  "innbook-play": {
+    "src": "/media/innbook-play.webp",
+    "width": 1200,
+    "height": 667,
+    "alt": "InnBook prototype with dialogue, character portraits, and map",
+    "caption": "Player dialogue interface in the course prototype.",
+    "full": "/images/project/innbook-25-0.png"
+  },
+  "innbook-play-thumb": {
+    "src": "/media/innbook-play-thumb.webp",
+    "width": 420,
+    "height": 233,
+    "alt": "InnBook prototype with dialogue, character portraits, and map",
+    "caption": "Player dialogue interface in the course prototype.",
+    "full": "/images/project/innbook-25-0.png"
+  },
+  "innbook-character": {
+    "src": "/media/innbook-character.webp",
+    "width": 1200,
+    "height": 668,
+    "alt": "InnBook prototype with character information and world map",
+    "caption": "Character and map view in the course prototype.",
+    "full": "/images/project/innbook-25-1.png"
+  },
+  "innbook-editor": {
+    "src": "/media/innbook-editor.webp",
+    "width": 1200,
+    "height": 658,
+    "alt": "InnBook prototype with chapters and a narrative editor",
+    "caption": "Narrative editor from the team’s HCI course prototype.",
+    "full": "/images/project/innbook-editor.webp"
+  },
+  "innbook-editor-thumb": {
+    "src": "/media/innbook-editor-thumb.webp",
+    "width": 420,
+    "height": 230,
+    "alt": "InnBook prototype with chapters and a narrative editor",
+    "caption": "Narrative editor from the team’s HCI course prototype.",
+    "full": "/images/project/innbook-editor.webp"
+  },
+  "innbook-tree": {
+    "src": "/media/innbook-tree.webp",
+    "width": 1200,
+    "height": 665,
+    "alt": "InnBook branching story canvas beside chapter navigation",
+    "caption": "Story-tree interface from the course prototype.",
+    "full": "/images/project/innbook-story-tree.webp"
+  },
+  "paradigms": {
+    "src": "/media/paradigms.webp",
+    "width": 1672,
+    "height": 941,
+    "alt": "Diagram connecting empirical, theoretical, computational, and data-driven methods through behavioral simulation",
+    "caption": "Behavioral simulation as a synthesis of scientific paradigms.",
+    "full": "/images/research/fig1_1_paradigm_fusion.png"
+  },
+  "aerospace": {
+    "src": "/media/aerospace.webp",
+    "width": 1199,
+    "height": 1200,
+    "alt": "Six-panel figure accompanying the aerospace scientific-paradigms perspective",
+    "caption": "Figure supplied for the aerospace perspective.",
+    "full": "/images/research/nwaf122fig1.jpeg"
+  },
+  "aerospace-thumb": {
+    "src": "/media/aerospace-thumb.webp",
+    "width": 280,
+    "height": 280,
+    "alt": "Six-panel figure accompanying the aerospace scientific-paradigms perspective",
+    "caption": "Figure supplied for the aerospace perspective.",
+    "full": "/images/research/nwaf122fig1.jpeg"
+  },
+  "simulation": {
+    "src": "/media/simulation.webp",
+    "width": 1672,
+    "height": 941,
+    "alt": "Diagram comparing a Turing machine, a behavior simulation machine, and an agent-based behavioral model",
+    "caption": "From general computation to behavioral simulation: model, simulator, and observed state.",
+    "full": "/images/research/Universal Computation and Simulation Framework.png"
+  },
+  "simulation-thumb": {
+    "src": "/media/simulation-thumb.webp",
+    "width": 420,
+    "height": 236,
+    "alt": "Diagram comparing a Turing machine, a behavior simulation machine, and an agent-based behavioral model",
+    "caption": "From general computation to behavioral simulation: model, simulator, and observed state.",
+    "full": "/images/research/Universal Computation and Simulation Framework.png"
+  },
+  "rowing-sunset": {
+    "src": "/media/rowing-sunset.webp",
+    "width": 900,
+    "height": 1200,
+    "alt": "Rowing on the water beneath an orange sunset",
+    "caption": "On the water at sunset.",
+    "full": "/images/rowing/IMG_2837.jpg"
+  },
+  "rowing-crew": {
+    "src": "/media/rowing-crew.webp",
+    "width": 1200,
+    "height": 900,
+    "alt": "Rowing crew in a long shell on calm water beneath a cloudy sky",
+    "caption": "A session on the water with Illini Rowing.",
+    "full": "/images/rowing/IMG_7522.jpg"
+  },
+  "fpi-thumb": {
+    "src": "/media/fpi-thumb.webp",
+    "width": 420,
+    "height": 489,
+    "alt": "Synthetic personal profiles converted into question–answer pairs for the FPI dataset",
+    "caption": "FPI: synthetic profiles and question–answer pairs.",
+    "full": "/images/research/FPI.pdf"
+  },
+  "steins-play": {
+    "src": "/media/steins-play.webp",
+    "width": 981,
+    "height": 823,
+    "alt": "The game running on the FPGA setup, photographed in the project report (p. 27).",
+    "caption": "The game running on the FPGA setup, photographed in the project report (p. 27)."
+  },
+  "steins-play-thumb": {
+    "src": "/media/steins-play-thumb.webp",
+    "width": 334,
+    "height": 280,
+    "alt": "The game running on the FPGA setup, photographed in the project report (p. 27).",
+    "caption": "The game running on the FPGA setup, photographed in the project report (p. 27)."
+  },
+  "steins-viewpoint": {
+    "src": "/media/steins-viewpoint.webp",
+    "width": 1100,
+    "height": 825,
+    "alt": "An alternate character viewpoint on the VGA display (report, p. 28).",
+    "caption": "An alternate character viewpoint on the VGA display (report, p. 28)."
+  },
+  "steins-meeting": {
+    "src": "/media/steins-meeting.webp",
+    "width": 976,
+    "height": 732,
+    "alt": "The two characters together on screen during the documented worldline test (report, p. 30).",
+    "caption": "The two characters together on screen during the documented worldline test (report, p. 30)."
+  },
+  "tricolor-exp": {
+    "src": "/media/tricolor-exp.webp",
+    "width": 1672,
+    "height": 941,
+    "alt": "Three-color experiment pipeline: four agents interact, followed by baseline trajectories, alignment, continuation, evaluation and computational analysis.",
+    "caption": "Three-color experiment: from observed trajectories and state alignment to future behavior evaluation.",
+    "full": "/images/research/tricolor_exp.png"
+  }
+}

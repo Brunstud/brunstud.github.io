@@ -1,3 +1,5 @@
+import media from "./media.json";
+import type { MediaImage } from "@/components/gallery";
 export const site = {
   name: "Shicheng Hu",
   email: "shu40@illinois.edu",
@@ -21,18 +23,15 @@ export type Work = {
   summary: string;
   topics?: string;
   externalUrl?: string;
-  figures?: {
-    src: string;
-    alt: string;
-    caption: string;
-    width: number;
-    height: number;
-  }[];
+  thumbnail?: MediaImage;
+  figures?: (MediaImage & { after: string })[];
+  gallery?: { after: string; label: string; images: MediaImage[] };
   links?: { label: string; href: string }[];
 };
 export const research: Work[] = [
   {
     slug: "private-information-unlearning",
+    thumbnail: media["fpi-thumb"],
     title:
       "On the Recoverability of Private Information Unlearning in Large Language Models",
     period: "2025–2026",
@@ -50,6 +49,12 @@ export const research: Work[] = [
   },
   {
     slug: "organized-complexity",
+    thumbnail: media["simulation-thumb"],
+    figures: [
+      { ...media.paradigms, after: "Motivation" },
+      { ...media.simulation, after: "A behavioral simulation framework" },
+      { ...media["tricolor-exp"], after: "Evaluation" },
+    ],
     title: "Computational Properties of Organized Complexity Simulation",
     period: "2025–2026",
     metadata:
@@ -59,6 +64,7 @@ export const research: Work[] = [
   },
   {
     slug: "aerospace-paradigms",
+    thumbnail: media["aerospace-thumb"],
     title: "Future Scientific Paradigms in Aerospace Systems",
     period: "2024",
     metadata: "National Science Report · Published perspective · Third author",
@@ -73,6 +79,7 @@ export const research: Work[] = [
 export const projects: Work[] = [
   {
     slug: "innbook",
+    thumbnail: media["innbook-play-thumb"],
     title: "InnBook",
     period: "2025",
     metadata: "LLM-powered multi-agent creative interaction platform",
@@ -81,26 +88,13 @@ export const projects: Work[] = [
     topics:
       "LLM inference / Multi-agent orchestration / Interactive narratives",
     figures: [
-      {
-        src: "/images/projects/innbook-editor.webp",
-        alt: "InnBook course prototype: chapter navigation and narrative editor",
-        caption:
-          "Narrative editor from the team’s HCI course prototype. Chapter navigation and writing share a single workspace.",
-        width: 1661,
-        height: 911,
-      },
-      {
-        src: "/images/projects/innbook-story-tree.webp",
-        alt: "InnBook course prototype showing a branching story canvas",
-        caption:
-          "Story-tree interface from the course prototype, presenting narrative branches alongside the chapter structure.",
-        width: 1673,
-        height: 927,
-      },
+      { ...media["innbook-play"], after: "From writing a story to inhabiting one" },
+      { ...media["innbook-tree"], after: "Keeping the author in control" },
     ],
   },
   {
     slug: "fluid-simulation",
+    thumbnail: media["fluid-scene-thumb"],
     title: "Offline Ray-Traced Fluid Simulation",
     period: "2024",
     metadata: "Computer graphics & physical simulation",
@@ -111,23 +105,27 @@ export const projects: Work[] = [
       { label: "Code", href: "https://github.com/yuehuarulian/Tongji-24-GL" },
     ],
     figures: [
-      {
-        src: "/images/projects/fluid-scene.webp",
-        alt: "Pool scene from the team report, with sailboats, a water lily, and a reflective water surface",
-        caption:
-          "Pool scene shown in the team report’s results section. Scene modeling, rendering, and animation were collaborative work.",
-        width: 1080,
-        height: 720,
-      },
-      {
-        src: "/images/projects/fluid-render.webp",
-        alt: "Noisy path-traced frame of the pool, water surface, and floating objects",
-        caption:
-          "Path-traced frame from the reported results, retaining the sampling noise visible in the original image.",
-        width: 517,
-        height: 345,
-      },
+      { ...media["fluid-scene"], after: "A small room, a coupled system" },
+      { ...media["fluid-mesh"], after: "My contribution: integrating APIC fluids" },
+      { ...media["fluid-render"], after: "Buoyancy and thread synchronization" },
+      { ...media["fluid-light"], after: "Buoyancy and thread synchronization" },
     ],
+  },
+  {
+    slug: "steins-gate",
+    title: "Worldline Knot · 命运石扭结",
+    period: "Personal",
+    metadata: "Steins;Gate-inspired mini-game · FPGA / Verilog",
+    summary: "A hardware game about two characters moving through opposing timelines. Physical input, worldline state, and VGA graphics turn a time-travel idea into a digital system.",
+    topics: "Game design / State machines / Digital logic",
+    thumbnail: media["steins-play-thumb"],
+    figures: [
+      { ...media["steins-play"], after: "A meeting across worldlines" },
+      { ...media["steins-viewpoint"], after: "On the VGA display" },
+      { ...media["steins-meeting"], after: "On the VGA display" },
+      { src: "/media/worldline-system.svg", width: 900, height: 340, alt: "Input feeds game state, which drives VGA, LED, and digit displays", caption: "Conceptual architecture based on the project documentation and Verilog top-level module; not a gameplay screenshot.", after: "From interaction to hardware" },
+    ],
+    links: [{ label: "Source on GitHub", href: "https://github.com/Brunstud/SteinsGate0" }],
   },
 ];
 export const personal =

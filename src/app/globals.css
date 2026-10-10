@@ -5,6 +5,49 @@
   --font-sans: Arial, Helvetica, sans-serif;
   --font-serif: Georgia, "Times New Roman", serif;
 }
+
+.site-header { flex-wrap: wrap; gap: 16px; }
+.wordmark { white-space: nowrap; }
+.daily-rhythm { position: relative; margin-left: auto; font-size: 11px; }
+.rhythm-trigger { display: flex; align-items: center; gap: 7px; color: var(--muted); padding: 9px 0; cursor: pointer; white-space: nowrap; }
+.rhythm-dot { width: 6px; height: 6px; border-radius: 50%; background: #758979; }
+.rhythm-dot.morning { background: #967240; }
+.rhythm-dot.evening { background: #846d8b; }
+.rhythm-dot.night { background: #65718b; }
+.rhythm-popover { position: absolute; z-index: 20; right: 0; top: 100%; width: min(340px, calc(100vw - 44px)); padding: 20px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 24px #293a2912; }
+.rhythm-heading { display: flex; align-items: center; justify-content: space-between; }
+.rhythm-heading h2 { font-size: 21px; }
+.rhythm-heading button { padding: 4px 10px; font-size: 20px; cursor: pointer; }
+.rhythm-popover ol { list-style: none; padding: 0; margin: 16px 0; }
+.rhythm-popover li { display: grid; grid-template-columns: 78px 1fr; gap: 8px; padding: 8px 5px; font-size: 11px; }
+.rhythm-popover li[aria-current] { background: #e7ede5; color: var(--green); font-weight: 600; }
+.rhythm-note { font-size: 10px; color: var(--muted); margin: 0; }
+.portrait { float: right; width: 132px; height: 132px; object-fit: cover; margin: 0 0 22px 28px; border-radius: 3px; }
+.portrait { width: 210px; height: 315px; margin-left: 32px; }
+.portrait img { display: block; width: 100%; height: 100%; object-fit: cover; border-radius: 3px; }
+.rhythm-icon { width: 20px; height: 20px; flex-shrink: 0; color: var(--green); }
+.rhythm-phase-label { display: flex; align-items: center; gap: 6px; }
+.rhythm-phase-label .rhythm-icon { width: 17px; height: 17px; }
+.rhythm-note { font-family: Georgia, serif; font-style: italic; line-height: 1.7; }
+.poem-title-with-print { display: grid; grid-template-columns: minmax(0, 1fr) 180px; gap: 30px; align-items: start; }
+.poem-title-with-print > div { grid-column: 1; grid-row: 1; }
+.poem-print { grid-column: 2; grid-row: 1; margin: 0; }
+.poem-print img { width: 100%; height: auto; }
+.introduction { display: flow-root; }
+.work-aside { min-width: 0; }
+.work-thumbnail { display: block; width: 140px; height: 94px; object-fit: contain; background: white; border: 1px solid var(--line); margin-top: 12px; }
+.editorial-figure { margin: 25px 0 35px; }
+.editorial-figure img { width: auto; max-width: 100%; height: auto; max-height: 530px; border: 1px solid var(--line); }
+.manual-gallery { margin: 24px 0 36px; }
+.manual-gallery:focus-visible { outline: 2px solid var(--green); outline-offset: 5px; }
+.manual-gallery figure { margin: 0; }
+.gallery-stage { height: 420px; display: flex; align-items: center; justify-content: center; background: #f0f0eb; }
+.gallery-stage img { max-width: 100%; width: auto; height: auto; max-height: 100%; object-fit: contain; }
+.gallery-controls { display: flex; align-items: center; justify-content: flex-end; gap: 14px; margin-top: 10px; font-size: 11px; font-variant-numeric: tabular-nums; }
+.gallery-controls button { border: 1px solid var(--line); padding: 7px 14px; cursor: pointer; color: var(--green); }
+.poetry-print { display: flex; gap: 24px; align-items: flex-end; margin: 45px 0 0; border-top: 1px solid var(--line); padding-top: 25px; }
+.poetry-print img { width: 150px; height: auto; }
+.poetry-print figcaption { max-width: 230px; }
 :root {
   color-scheme: light;
   --paper: #fcfbf8;
@@ -576,7 +619,27 @@ figcaption {
   height: auto;
   border: 1px solid var(--line);
 }
+.work-row { grid-template-columns: 140px minmax(0, 1fr); gap: 24px; }
+@media (min-width: 601px) and (max-width: 850px) {
+  .daily-rhythm { flex-basis: 100%; }
+  .rhythm-trigger { margin-left: auto; }
+}
 @media (max-width: 600px) {
+  .site-header { gap: 8px; }
+  .daily-rhythm { align-self: flex-end; }
+  .portrait { width: 90px; height: 90px; margin-left: 14px; }
+  .poem-title-with-print { grid-template-columns: minmax(0, 1fr) 105px; gap: 18px; }
+  .poem-print { width: 105px; margin: 0; }
+  .poem-print figcaption { font-size: 10px; }
+  .introduction .eyebrow { min-height: 30px; }
+  .introduction h1 { font-size: 38px; }
+  .tagline { clear: both; padding-top: 10px; }
+  .work-row { grid-template-columns: 1fr; gap: 10px; }
+  .work-aside { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .work-thumbnail { width: 100px; height: 67px; margin: 0; }
+  .gallery-stage { height: 280px; }
+  .poetry-print { align-items: flex-start; gap: 16px; }
+  .poetry-print img { width: 115px; }
   .poem-original {
     font-size: 19px;
     letter-spacing: 0.03em;

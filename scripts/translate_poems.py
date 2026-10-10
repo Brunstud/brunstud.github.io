@@ -153,8 +153,8 @@ Xiang Yu bared his sharp sword; in an outcry to heaven, the Hegemon ended his li
 }
 metadata = {
  '同舟行': ('tong-zhou-xing', 'A Song of the Shared Boat', '二〇二六届龙舟队队员', 'Dragon boat team, Class of 2026', 'The source credits the dragon boat team, Class of 2026. Numerical references to accompanying team recollections are omitted from this reading edition; the poem’s wording is preserved.'),
- '阉人吟': ('yan-ren-yin', 'Lament of the Emasculated', '', '', 'A figurative lament of lost ambition and renewed resolve. Huaxu and Nanke evoke dream-worlds; the great Peng and the small quail recall contrasting scales of aspiration. The final stanza is the source’s 补叙 (Afterword).'),
  '霸王别姬': ('ba-wang-bie-ji', 'The Hegemon Bids Farewell to His Beloved', '', '', 'A poetic retelling of Xiang Yu and Lady Yu. The translation follows the poem’s own sequence and imagery, rather than recasting it as a historical account.'),
+ '阉人吟': ('yan-ren-yin', 'Lament of the Emasculated', '', '', 'A figurative lament of lost ambition and renewed resolve. Huaxu and Nanke evoke dream-worlds; the great Peng and the small quail recall contrasting scales of aspiration. The final stanza is the source’s 补叙 (Afterword).'),
 }
 poems=[]
 for title, english in translations.items():

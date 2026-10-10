@@ -360,126 +360,6 @@
     "notes": "The source credits the dragon boat team, Class of 2026. Numerical references to accompanying team recollections are omitted from this reading edition; the poem’s wording is preserved."
   },
   {
-    "slug": "yan-ren-yin",
-    "title": "阉人吟",
-    "englishTitle": "Lament of the Emasculated",
-    "byline": "",
-    "englishByline": "",
-    "lines": [
-      {
-        "zh": "二段失陨，若千丈入冰，终期尽失，鸿鹄退已。",
-        "stanza": 0,
-        "en": "Twice brought low, as though falling a thousand fathoms into ice; every hope undone, the soaring swan retreats."
-      },
-      {
-        "zh": "八百里秋沙落胡洲，九万里长空寂无人。",
-        "stanza": 0,
-        "en": "Autumn sand settles across eight hundred li of distant shoals; ninety thousand li of sky lie empty and still."
-      },
-      {
-        "zh": "华山巍峨亭雀难立，孤林萧肃斥鴳何安？",
-        "stanza": 0,
-        "en": "Mount Hua towers too high for sparrows to perch; in the desolate grove, where can the little quail find peace?"
-      },
-      {
-        "zh": "空荡荡乎久不振，噫！",
-        "stanza": 0,
-        "en": "Hollow and listless, so long unable to rise—alas!"
-      },
-      {
-        "zh": "慢甸甸兮来者追，远。",
-        "stanza": 0,
-        "en": "I drag my steps as those behind draw closer, then far ahead."
-      },
-      {
-        "zh": "自悉不就何去何从？",
-        "stanza": 0,
-        "en": "Knowing I have come to nothing, where am I to go?"
-      },
-      {
-        "zh": "蒙蒙离雾阴蔽孰离。",
-        "stanza": 0,
-        "en": "Parting’s murky mist shrouds the way—who can escape it?"
-      },
-      {
-        "zh": "历久长庚未见晓曙，看尽夕红不了阳炎。",
-        "stanza": 0,
-        "en": "Long watching the evening star, I have seen no dawn; through all the sunset’s red, I have not grasped the sun’s fierce heat."
-      },
-      {
-        "zh": "愧己劳徒泯然湮灭，憾其倨守莫期徊旋。",
-        "stanza": 0,
-        "en": "Ashamed that all my toil dissolved into obscurity; regretful that stubborn pride left no hope of turning back."
-      },
-      {
-        "zh": "凤翔涅槃余鹄归散，鹏适南溟凡鸟销还。",
-        "stanza": 0,
-        "en": "The phoenix rises through rebirth, the remaining swans disperse; the great Peng flies south, and common birds fade homeward."
-      },
-      {
-        "zh": "浩宇芒星非冀吾摘，良辰晓梦毋眷王骸。",
-        "stanza": 0,
-        "en": "I do not ask to pluck the stars from the vast sky; let bright hours and dawn’s dreams linger no longer over a fallen king."
-      },
-      {
-        "zh": "华胥不存冬风酒醒，南柯未竟遍地阑干。",
-        "stanza": 0,
-        "en": "The realm of Huaxu is gone; winter wind sobers the wine. The dream of Nanke unfinished, tears lie scattered everywhere."
-      },
-      {
-        "zh": "悲摧苦恨繁霜烧尽，寥落难忍再罹他寒。",
-        "stanza": 0,
-        "en": "Grief and bitter regret burn through the heavy frost; desolation, hard to bear, meets yet another cold."
-      },
-      {
-        "zh": "孤寒怎怨庭柯错落？",
-        "stanza": 0,
-        "en": "How can my loneliness blame the branches tangled in the courtyard?"
-      },
-      {
-        "zh": "孑穷不惜旁道伤残！",
-        "stanza": 0,
-        "en": "Alone and destitute, I heed no wounds along the byways!"
-      },
-      {
-        "zh": "吾既销损复立遗风，渡鸟又征孰滞其才？",
-        "stanza": 0,
-        "en": "Though worn away, I rise to carry what remains; when migrant birds set out again, who can hold their gifts in check?"
-      },
-      {
-        "zh": "沉眠久矣今道兀炯，蔓蔓长枝将不畏裁！",
-        "stanza": 0,
-        "en": "Long have I slept; now the path shines clear—the stretching branches shall no longer fear the shears!"
-      },
-      {
-        "zh": "左支右绌马失前蹄，庸人自扰不以为然。",
-        "stanza": 2,
-        "en": "Caught short on every side, my horse stumbled; I dismissed it as a fool’s needless worry."
-      },
-      {
-        "zh": "倏尔消疏堤溃千里，蓦然回首余碎尽燔。",
-        "stanza": 2,
-        "en": "Suddenly all came apart, like a breached embankment; looking back, I found even the fragments burned."
-      },
-      {
-        "zh": "踌躇满志风声鹤唳，胡卢乱语怎生酸寒？",
-        "stanza": 2,
-        "en": "Full of ambition, yet frightened by wind and cranes—how did my careless laughter turn so bitter and cold?"
-      },
-      {
-        "zh": "奉若圭臬不辩明是，受辛未及却误狂嗔。",
-        "stanza": 2,
-        "en": "I took a rule as sacred without asking whether it was true; before enduring hardship, I mistook wild anger for my answer."
-      },
-      {
-        "zh": "忧愤未尽痛失前期，立心悔教谨此长吟。",
-        "stanza": 2,
-        "en": "Anxiety and anger linger; the time I hoped for is lost. I resolve to learn from regret, and set it down in this long song."
-      }
-    ],
-    "notes": "A figurative lament of lost ambition and renewed resolve. Huaxu and Nanke evoke dream-worlds; the great Peng and the small quail recall contrasting scales of aspiration. The final stanza is the source’s 补叙 (Afterword)."
-  },
-  {
     "slug": "ba-wang-bie-ji",
     "title": "霸王别姬",
     "englishTitle": "The Hegemon Bids Farewell to His Beloved",
@@ -748,5 +628,125 @@
       }
     ],
     "notes": "A poetic retelling of Xiang Yu and Lady Yu. The translation follows the poem’s own sequence and imagery, rather than recasting it as a historical account."
+  },
+  {
+    "slug": "yan-ren-yin",
+    "title": "阉人吟",
+    "englishTitle": "Lament of the Emasculated",
+    "byline": "",
+    "englishByline": "",
+    "lines": [
+      {
+        "zh": "二段失陨，若千丈入冰，终期尽失，鸿鹄退已。",
+        "stanza": 0,
+        "en": "Twice brought low, as though falling a thousand fathoms into ice; every hope undone, the soaring swan retreats."
+      },
+      {
+        "zh": "八百里秋沙落胡洲，九万里长空寂无人。",
+        "stanza": 0,
+        "en": "Autumn sand settles across eight hundred li of distant shoals; ninety thousand li of sky lie empty and still."
+      },
+      {
+        "zh": "华山巍峨亭雀难立，孤林萧肃斥鴳何安？",
+        "stanza": 0,
+        "en": "Mount Hua towers too high for sparrows to perch; in the desolate grove, where can the little quail find peace?"
+      },
+      {
+        "zh": "空荡荡乎久不振，噫！",
+        "stanza": 0,
+        "en": "Hollow and listless, so long unable to rise—alas!"
+      },
+      {
+        "zh": "慢甸甸兮来者追，远。",
+        "stanza": 0,
+        "en": "I drag my steps as those behind draw closer, then far ahead."
+      },
+      {
+        "zh": "自悉不就何去何从？",
+        "stanza": 0,
+        "en": "Knowing I have come to nothing, where am I to go?"
+      },
+      {
+        "zh": "蒙蒙离雾阴蔽孰离。",
+        "stanza": 0,
+        "en": "Parting’s murky mist shrouds the way—who can escape it?"
+      },
+      {
+        "zh": "历久长庚未见晓曙，看尽夕红不了阳炎。",
+        "stanza": 0,
+        "en": "Long watching the evening star, I have seen no dawn; through all the sunset’s red, I have not grasped the sun’s fierce heat."
+      },
+      {
+        "zh": "愧己劳徒泯然湮灭，憾其倨守莫期徊旋。",
+        "stanza": 0,
+        "en": "Ashamed that all my toil dissolved into obscurity; regretful that stubborn pride left no hope of turning back."
+      },
+      {
+        "zh": "凤翔涅槃余鹄归散，鹏适南溟凡鸟销还。",
+        "stanza": 0,
+        "en": "The phoenix rises through rebirth, the remaining swans disperse; the great Peng flies south, and common birds fade homeward."
+      },
+      {
+        "zh": "浩宇芒星非冀吾摘，良辰晓梦毋眷王骸。",
+        "stanza": 0,
+        "en": "I do not ask to pluck the stars from the vast sky; let bright hours and dawn’s dreams linger no longer over a fallen king."
+      },
+      {
+        "zh": "华胥不存冬风酒醒，南柯未竟遍地阑干。",
+        "stanza": 0,
+        "en": "The realm of Huaxu is gone; winter wind sobers the wine. The dream of Nanke unfinished, tears lie scattered everywhere."
+      },
+      {
+        "zh": "悲摧苦恨繁霜烧尽，寥落难忍再罹他寒。",
+        "stanza": 0,
+        "en": "Grief and bitter regret burn through the heavy frost; desolation, hard to bear, meets yet another cold."
+      },
+      {
+        "zh": "孤寒怎怨庭柯错落？",
+        "stanza": 0,
+        "en": "How can my loneliness blame the branches tangled in the courtyard?"
+      },
+      {
+        "zh": "孑穷不惜旁道伤残！",
+        "stanza": 0,
+        "en": "Alone and destitute, I heed no wounds along the byways!"
+      },
+      {
+        "zh": "吾既销损复立遗风，渡鸟又征孰滞其才？",
+        "stanza": 0,
+        "en": "Though worn away, I rise to carry what remains; when migrant birds set out again, who can hold their gifts in check?"
+      },
+      {
+        "zh": "沉眠久矣今道兀炯，蔓蔓长枝将不畏裁！",
+        "stanza": 0,
+        "en": "Long have I slept; now the path shines clear—the stretching branches shall no longer fear the shears!"
+      },
+      {
+        "zh": "左支右绌马失前蹄，庸人自扰不以为然。",
+        "stanza": 2,
+        "en": "Caught short on every side, my horse stumbled; I dismissed it as a fool’s needless worry."
+      },
+      {
+        "zh": "倏尔消疏堤溃千里，蓦然回首余碎尽燔。",
+        "stanza": 2,
+        "en": "Suddenly all came apart, like a breached embankment; looking back, I found even the fragments burned."
+      },
+      {
+        "zh": "踌躇满志风声鹤唳，胡卢乱语怎生酸寒？",
+        "stanza": 2,
+        "en": "Full of ambition, yet frightened by wind and cranes—how did my careless laughter turn so bitter and cold?"
+      },
+      {
+        "zh": "奉若圭臬不辩明是，受辛未及却误狂嗔。",
+        "stanza": 2,
+        "en": "I took a rule as sacred without asking whether it was true; before enduring hardship, I mistook wild anger for my answer."
+      },
+      {
+        "zh": "忧愤未尽痛失前期，立心悔教谨此长吟。",
+        "stanza": 2,
+        "en": "Anxiety and anger linger; the time I hoped for is lost. I resolve to learn from regret, and set it down in this long song."
+      }
+    ],
+    "notes": "A figurative lament of lost ambition and renewed resolve. Huaxu and Nanke evoke dream-worlds; the great Peng and the small quail recall contrasting scales of aspiration. The final stanza is the source’s 补叙 (Afterword)."
   }
 ]

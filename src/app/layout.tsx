@@ -4,7 +4,8 @@ import { site } from "@/content/site";
 import "./globals.css";
 const origin = process.env.NEXT_PUBLIC_SITE_URL;
 export const metadata: Metadata = {
-  metadataBase: new URL(origin || "http://localhost:3000"),
+  metadataBase: new URL(origin || "https://brunstud.github.io"),
+  icons: { icon: [{ url: "/brand/favicon-32.png", sizes: "32x32", type: "image/png" }] },
   title: {
     default: "Shicheng Hu",
     template: "%s | Shicheng Hu",

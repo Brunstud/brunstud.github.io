@@ -1,0 +1,38 @@
+{
+  "steins-play": {
+    "src": "/media/steins-play.webp",
+    "width": 981,
+    "height": 823,
+    "alt": "The game running on the FPGA setup, photographed in the project report (p. 27).",
+    "caption": "The game running on the FPGA setup, photographed in the project report (p. 27)."
+  },
+  "steins-play-thumb": {
+    "src": "/media/steins-play-thumb.webp",
+    "width": 334,
+    "height": 280,
+    "alt": "The game running on the FPGA setup, photographed in the project report (p. 27).",
+    "caption": "The game running on the FPGA setup, photographed in the project report (p. 27)."
+  },
+  "steins-viewpoint": {
+    "src": "/media/steins-viewpoint.webp",
+    "width": 1100,
+    "height": 825,
+    "alt": "An alternate character viewpoint on the VGA display (report, p. 28).",
+    "caption": "An alternate character viewpoint on the VGA display (report, p. 28)."
+  },
+  "steins-meeting": {
+    "src": "/media/steins-meeting.webp",
+    "width": 976,
+    "height": 732,
+    "alt": "The two characters together on screen during the documented worldline test (report, p. 30).",
+    "caption": "The two characters together on screen during the documented worldline test (report, p. 30)."
+  },
+  "tricolor-exp": {
+    "src": "/media/tricolor-exp.webp",
+    "width": 1672,
+    "height": 941,
+    "alt": "Three-color experiment pipeline: four agents interact, followed by baseline trajectories, alignment, continuation, evaluation and computational analysis.",
+    "caption": "Three-color experiment: from observed trajectories and state alignment to future behavior evaluation.",
+    "full": "/images/research/tricolor_exp.png"
+  }
+}

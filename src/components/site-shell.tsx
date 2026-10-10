@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { site } from "@/content/site";
+import { BrandMark } from "./brand-mark";
+import { DailyRhythm } from "./daily-rhythm";
 export function Waterline() {
   return (
     <svg
@@ -21,7 +23,7 @@ export function Header() {
   return (
     <header className="site-header">
       <Link href="/" className="wordmark" aria-label="Shicheng Hu — home">
-        <Waterline />
+        <BrandMark />
         <span>Shicheng Hu</span>
       </Link>
       <nav aria-label="Main navigation">
@@ -32,6 +34,7 @@ export function Header() {
           CV <span aria-hidden="true">↗</span>
         </Link>
       </nav>
+      <DailyRhythm />
     </header>
   );
 }

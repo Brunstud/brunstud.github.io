@@ -12,6 +12,7 @@ const routes = [
   "/poetry/ba-wang-bie-ji",
   "/projects/innbook",
   "/projects/fluid-simulation",
+  "/projects/steins-gate",
 ];
 test("all pages, local links, anchors, PDF, metadata, and missing routes", async ({
   page,
@@ -45,7 +46,7 @@ test("all pages, local links, anchors, PDF, metadata, and missing routes", async
       await expect(page.locator(url.hash)).toHaveCount(1);
     }
   }
-  const pdf = await request.get("/shicheng-hu-cv.pdf");
+  const pdf = await request.get("/cv/CV-Shicheng-Hu.pdf");
   expect((await pdf.body()).subarray(0, 4).toString()).toBe("%PDF");
   expect((await request.get("/poetry/not-a-real-poem")).status()).toBe(404);
   expect((await request.get("/research/not-a-real-paper")).status()).toBe(404);
@@ -101,7 +102,7 @@ for (const width of [1440, 390, 320]) {
       .getByRole("heading", { name: "InnBook", exact: true })
       .getByRole("link")
       .click();
-    await expect(page).toHaveURL(/\/projects\/innbook$/);
+    await expect(page).toHaveURL(/\/projects\/innbook\/?$/);
   });
 }
 
@@ -111,8 +112,8 @@ test("poems have paired translations; CV switching, downloads, and project image
 }) => {
   for (const [slug, count] of [
     ["tong-zhou-xing", 70],
-    ["yan-ren-yin", 22],
     ["ba-wang-bie-ji", 52],
+    ["yan-ren-yin", 22],
   ] as const) {
     await page.goto(`/poetry/${slug}`);
     await expect(page.locator(".poem-original")).toHaveCount(count);
@@ -150,8 +151,8 @@ test("poems have paired translations; CV switching, downloads, and project image
   }
   for (const slug of ["innbook", "fluid-simulation"]) {
     await page.goto(`/projects/${slug}`);
-    await expect(page.locator(".project-figures img")).toHaveCount(2);
-    for (const image of await page.locator(".project-figures img").all()) {
+    await expect(page.locator(".editorial-figure img")).toHaveCount(slug === "innbook" ? 2 : 4);
+    for (const image of await page.locator(".editorial-figure img, .manual-gallery img").all()) {
       await image.scrollIntoViewIfNeeded();
       await expect
         .poll(() =>

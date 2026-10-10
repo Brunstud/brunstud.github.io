@@ -14,7 +14,7 @@ The report calls its central interaction metaphor “horse-riding”: an agent c
 
 ## My contribution
 
-For the four-person HCI course project, I contributed requirements analysis, user research, creation-module page design, and the presentation. The screenshots below show that team prototype. The engineering work described above is documented in my CV; the interface images illustrate the interaction design, not a publicly deployed service.
+For the four-person HCI course project, I contributed requirements analysis, user research, creation-module page design, and the presentation. The screenshots on this page show that team prototype. The engineering work described above is documented in my CV; the interface images illustrate the interaction design, not a publicly deployed service.
 
 ## What remains open
 
