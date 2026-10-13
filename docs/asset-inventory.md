@@ -15,11 +15,12 @@ All 30 supplied image files were visually inspected, including portrait variants
 | `public/images/dargon boat/7.jpg` | 1280 × 1706 / 0.75:1 | Front view along a dragon boat on open water | About chronological dragon boat gallery | No |
 | `public/images/dargon boat/8.jpg` | 2560 × 1920 / 1.33:1 | Team with university flag in front of an event backdrop | About chronological dragon boat gallery | No |
 | `public/images/dargon boat/9.jpg` | 1440 × 1080 / 1.33:1 | Team group indoors with university flag | About chronological dragon boat gallery | No |
+| `public/images/picture/3586eab30ea640c9e07b0dbbf3aa034f.jpg` | 883 × 1280 / 0.69:1 | Vertical portrait selected for the homepage | Homepage biography | Yes, small preview |
 | `public/images/picture/IMG_9505.jpg` | 1750 × 1750 / 1.00:1 | Square formal portrait without glasses | Unused: another portrait was selected to avoid repetition. | No |
 | `public/images/picture/IMG_9526.jpg` | 1750 × 1750 / 1.00:1 | Square formal portrait with glasses | Unused: another portrait was selected to avoid repetition. | No |
-| `public/images/picture/IMG_9537.jpg` | 1750 × 1750 / 1.00:1 | Square formal portrait with glasses, alternate expression | Homepage biography | Yes, small preview |
+| `public/images/picture/IMG_9537.jpg` | 1750 × 1750 / 1.00:1 | Square formal portrait with glasses, alternate expression | Unused: another portrait was selected to avoid repetition. | No |
 | `public/images/picture/IMG_9563.jpg` | 3538 × 5307 / 0.67:1 | Three-quarter formal portrait, arms folded | Unused: another portrait was selected to avoid repetition. | No |
-| `public/images/picture/IMG_9577.jpg` | 3744 × 5616 / 0.67:1 | Formal portrait adjusting a tie | Homepage biography, desktop | No |
+| `public/images/picture/IMG_9577.jpg` | 3744 × 5616 / 0.67:1 | Formal portrait adjusting a tie | Unused: another portrait was selected to avoid repetition. | No |
 | `public/images/picture/IMG_9579.jpg` | 3744 × 5616 / 0.67:1 | Standing formal portrait with glasses | Unused: another portrait was selected to avoid repetition. | No |
 | `public/images/poetry/同舟行诗挂.jpg` | 1279 × 1706 / 0.75:1 | Photograph of a printed hanging copy of 同舟行 | Tong Zhou Xing poem, right side | No |
 | `public/images/project/fluid-54-2.png` | 374 × 365 / 1.02:1 | Fluid mesh / particle visualization | Fluid detail, simulation section | No |
@@ -47,6 +48,6 @@ All 30 supplied image files were visually inspected, including portrait variants
 
 - Dragon boat photographs keep numerical order 1–9. Captions do not infer event names, dates, or results.
 - Galleries are manual and mount only the current image. Research thumbnails preserve the entire figure; no chart axes or diagram labels are cropped.
-- The desktop portrait is IMG_9577; mobile uses IMG_9537. The four other portraits remain unused. The wide unlearning bar chart remains unused.
+- The homepage uses 3586eab30ea640c9e07b0dbbf3aa034f.jpg at every viewport size. The other portraits remain unused.
 - The printed poem is shown once on the right of Tong Zhou Xing. Rowing and dragon boat photos appear in distinct About sections.
 - WebP derivatives remove EXIF metadata. Full-resolution originals remain available for inspecting technical figures; no originals are deleted.

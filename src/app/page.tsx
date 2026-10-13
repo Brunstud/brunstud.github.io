@@ -10,9 +10,7 @@ export default function Home() {
     <>
       <section className="introduction" aria-labelledby="name">
         <picture className="portrait">
-          <source media="(max-width: 600px)" srcSet={media.portrait.src} width={media.portrait.width} height={media.portrait.height} />
-          {/* Native picture selects one portrait before fetching it. */}
-          <img src={media["portrait-large"].src} alt="Shicheng Hu in a dark suit and glasses" width={media["portrait-large"].width} height={media["portrait-large"].height} fetchPriority="high" />
+          <img src={media["portrait-large"].src} alt={media["portrait-large"].alt} width={media["portrait-large"].width} height={media["portrait-large"].height} fetchPriority="high" />
         </picture>
         <p className="eyebrow">
           Computer science · University of Illinois Urbana-Champaign
